@@ -19,7 +19,7 @@ CMake --build .
 
 Install the game and run it. If you get a PunkBuster pop up, let it run. If it fails, you can just kill pbsetup.exe from the Task Manager and everything will still work fine (PB hasn't been supported for a while).
 
-Once the game has run, Steam Client Service, running as SYSTEM, will put your Steam COD4 cd key into the registry under HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Activision\Call of Duty 4 : codkey (REG_SZ). Make sure to give your profile a Name, which you will use below before exiting the game.
+Once the game has run, Steam Client Service, running as SYSTEM, will put your Steam COD4 cd key into the registry under `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Activision\Call of Duty 4 : codkey (REG_SZ)`. Make sure to give your profile a Name, which you will use below before exiting the game.
 
 Close the game and then run `give_l55.ps1` from an elevated PowerShell prompt at the root of the git repository.
 
